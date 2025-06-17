@@ -1,10 +1,7 @@
 # News Site
 
-Replace this readme with your own information about the project. You can include things like:
+The Technigo selfpaced bootcamp wanted our first prpject to be solely HTML & CSS. And that we should do a news website. 
+<br> I chose to do one for the renaissance and added lorem ipsum to the articles. If I had had more time I would have crafted the "actual content" in the articles as well as provided some "local city editions", just for fun. 
 
-- Brief description of the assignment
-- How you approached the task, what tools and techniques you used, and how you planned it
-- If you had more time, what would be next?
 
-## View it live
-Every project should be deployed somewhere. Be sure to include the link to the deployed project so that the viewer can click around and see what it's all about.
+
