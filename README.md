@@ -6,6 +6,7 @@ The Technigo selfpaced bootcamp wanted our first prpject to be solely HTML & CSS
 If I had had more time I would have crafted the "actual content" in the articles as well as provided some "local city editions", just for fun. 
 <br>
 <br>
+As of now I'm having issues with the images not showing up... Hopefully I can fix that later on.
 <br>
 
 Here is the link:
