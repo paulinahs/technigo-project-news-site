@@ -3,21 +3,95 @@
   <head>
     <meta charset="utf-8" />
     <!-- Change the title below -->
-    <title>News Site</title>
+    <title>Musewire</title>
     <link rel="stylesheet" href="./style.css" />
     <!-- dont forget the meta tag for responsiveness -->
   </head>
   <body>
     <header>
-      <!-- Some kind of logo and navbar -->
+      <img src="./assets/Musewire_Header.png" alt="Musewire Header" />
     </header>
 
-    <section class="big-news">
-      <!-- The big news content -->
-    </section>
+<!-- Musewire ticker -->
+<section class="ticker" aria-label="Musewire headlines">
+  <div class="ticker__label">LIVE</div>
 
-    <section class="">
-      <!-- The other news  -->
+  <div class="ticker__track">
+    <div class="ticker__row">
+      <span>Pearls are back in season</span>
+      <span>Echo drops her first solo</span>
+      <span>Frida inspires a new wave</span>
+      <span>Ophelia launches a wellness line</span>
+      <span>Eurydice walks into the light</span>
+      <span>Mona Lisa redesigns the home</span>
+    </div>
+    <!-- Duplicate row for seamless scroll -->
+    <div class="ticker__row" aria-hidden="true">
+      <span>Pearls are back in season</span>
+      <span>Echo drops her first solo</span>
+      <span>Frida inspires a new wave</span>
+      <span>Ophelia launches a wellness line</span>
+      <span>Eurydice walks into the light</span>
+      <span>Mona Lisa redesigns the home</span>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- 2 rows × 3 cards -->
+    <section class="grid-news">
+      <article class="card">
+        <img src="./assets/Girl_with_a_Pearl_Earring.png" alt="Girl with a Pearl Earring reimagined" />
+        <h3>Girl with the Pearl Earring Signs Exclusive with Dior</h3>
+      </article>
+    
+      <article class="card">
+        <img src="./assets/Ophelia.png" alt="Ophelia reimagined with florals" />
+        <h3>Breaking: Ophelia Found Alive, Launches Wellness Brand</h3>
+      </article>
+    
+      <article class="card">
+        <img src="./assets/Frida_Kahlo.png" alt="Frida Kahlo portrait with floral crown" />
+        <h3>Frida’s Eyebrows Take Over Fashion Week</h3>
+      </article>
+    
+      <article class="card">
+        <img src="./assets/Echo.png" alt="Echo silhouette with sound waves" />
+        <h3>Echo Refuses to Repeat, Launches Solo Podcast</h3>
+      </article>
+    
+      <article class="card">
+        <img src="./assets/Mona_Lisa.png" alt="Mona Lisa in modern setting" />
+        <h3>Mona Lisa Steps Down as Influencer, Pursues Interior Design</h3>
+      </article>
+    
+      <article class="card">
+        <img src="./assets/Eurydice.png" alt="Eurydice walking toward light" />
+        <h3>Eurydice Speaks: “This Time, I’m Not Looking Back”</h3>
+      </article>
     </section>
   </body>
+
+<footer>
+  <p>© 2025 Musewire — Designed by <a href="https://studiohesselius.com" target="_blank">Studio Hesselius</a></p>
+  <div class="socials">
+    <a href="https://instagram.com/studio.hesselius" target="_blank">Instagram</a>
+    <a href="https://tiktok.com/@studio_hesselius" target="_blank">TikTok</a>
+  </div>
+</footer>
+
+
+
 </html>
